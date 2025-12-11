@@ -55,6 +55,8 @@ export interface ContentData {
     results: string;
     process: string;
     contact: string;
+    logoTitle: string;
+    logoSubtitle: string;
   };
   hero: {
     badge: string;

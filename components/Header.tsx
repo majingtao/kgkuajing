@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Globe, Menu, X } from 'lucide-react';
 import { ContentData, Language } from '../types';
@@ -60,8 +61,8 @@ const Header: React.FC<HeaderProps> = ({ content, language, setLanguage }) => {
              <Globe className="w-6 h-6" />
           </div>
           <div className="flex flex-col leading-none">
-            <span className="text-lg font-bold">全球开店</span>
-            <span className="text-xs text-blue-600 tracking-widest font-bold">苦瓜科技</span>
+            <span className="text-lg font-bold">{content.logoTitle}</span>
+            <span className="text-xs text-blue-600 tracking-widest font-bold">{content.logoSubtitle}</span>
           </div>
         </a>
 

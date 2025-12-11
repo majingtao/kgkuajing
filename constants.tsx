@@ -1,3 +1,4 @@
+
 import { ContentData, Language } from './types';
 
 export const CONTENT: Record<Language, ContentData> = {
@@ -10,6 +11,8 @@ export const CONTENT: Record<Language, ContentData> = {
       results: "Results",
       process: "Process",
       contact: "Contact",
+      logoTitle: "Global Stores",
+      logoSubtitle: "Kugua Tech",
     },
     hero: {
       badge: "Digital Empowerment for Brand Growth",
@@ -183,6 +186,8 @@ export const CONTENT: Record<Language, ContentData> = {
       results: "合作业绩",
       process: "合作流程",
       contact: "联系我们",
+      logoTitle: "全球开店",
+      logoSubtitle: "苦瓜科技",
     },
     hero: {
       badge: "数字化赋能 跨境品牌增长",
