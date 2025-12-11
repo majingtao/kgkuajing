@@ -1,5 +1,8 @@
 import { GoogleGenAI, Chat, GenerateContentResponse } from "@google/genai";
 
+// Declare process to appease Typescript check during Vite build
+declare var process: { env: { API_KEY: string } };
+
 // System instruction to guide the persona
 const SYSTEM_INSTRUCTION = `
 You are an expert Cross-Border E-commerce Consultant for a company called "Kugua Tech" (苦瓜科技).

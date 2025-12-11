@@ -1,6 +1,5 @@
-
-import React, { useState, useEffect } from 'react';
-import { ShoppingBag, Video, Globe, Users, ArrowRight, ArrowLeft, CheckCircle, ChevronRight, BarChart, Target, ShieldCheck } from 'lucide-react';
+import React, { useState } from 'react';
+import { ShoppingBag, Video, Globe, Users, ArrowLeft, CheckCircle, ChevronRight, BarChart, Target, ShieldCheck } from 'lucide-react';
 import { ContentData, ServiceItem } from '../types';
 
 interface ServicesProps {
